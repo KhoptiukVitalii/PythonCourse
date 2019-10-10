@@ -1,5 +1,6 @@
 change = int(input('Скільки здачі необхідно видати?:'))
 print('change = ', change)
+NumberOfСoins = 0
 if change > 25:
     change25 = change // 25
     print('change25 =', change25)
@@ -24,4 +25,4 @@ if change >= 1:
     change = change % 1
     print('change =', change)
     NumberOfСoins = NumberOfСoins + change1
-print(NumberOfСoins)
+print("NumberOfСoins",  NumberOfСoins)
