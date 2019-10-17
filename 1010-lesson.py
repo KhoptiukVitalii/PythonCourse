@@ -1,7 +1,7 @@
 # ss = "Hello world"
 # start = ss.find('H')
 # finish = ss.find('r')
-# print(start, finish, ss[start:finish + 1])
+# print(start, finish, ss[start:finish + 2])
 
 # var = "A"
 # print(var, ord(var))
@@ -16,11 +16,11 @@
 # for i in range(97,123):
 #     print(chr(i), i)
 
-import string
+# import string
 
 # ss = string.ascii_letters
 # print(ss)
-ss2 = string.ascii_uppercase
+# ss2 = string.ascii_uppercase
 # print(ss2)
 # ss3 = string.digits
 # print(ss3)
@@ -38,10 +38,11 @@ ss2 = string.ascii_uppercase
 #     print(i, ord(i))
 
 # loverCase = string.ascii_lowercase
+# print(loverCase)
 # s = "a"
 # rez = s in loverCase
 # print(rez)
-#
+
 # for s1 in "Hello world!":
 #     print(s1, end=" -- ")
 #     if s1 in string.ascii_lowercase:
@@ -51,7 +52,9 @@ ss2 = string.ascii_uppercase
 #     else:
 #         print("None char simbol")
 
-import this
+# import this
+
+print("{0:05d}, {0:5x}, {0:b}, {0:o}".format(11))
 
 
 
