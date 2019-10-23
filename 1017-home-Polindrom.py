@@ -22,7 +22,7 @@ for i in text:
 text_half = len(text_only) // 2
 
 for i in range(text_half):
-    if text_only[i] != text_only[len(text_only) - 1 - i]:
+    if text_only[i] != text_only[-i-1]:
         break
     elif i != text_half - 1:
         continue

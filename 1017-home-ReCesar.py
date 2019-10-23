@@ -19,8 +19,8 @@ def foo_code_cesar(ll, l_key):
     return new_ll
 
 
-# letters = input("Text to code> ")
-letters = "Or fher gb qevax lbhe Binygvar!"
+letters = input("Text to code> ")
+# letters = "Or fher gb qevax lbhe Binygvar!"
 key = int(input("secret key>>"))  # secret code
 
 for letter in letters:
