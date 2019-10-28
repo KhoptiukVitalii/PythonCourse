@@ -7,7 +7,7 @@ def check(ll):
 
     while ll != bord_end:
         return False
-
+    return True
 
 def print_bord(ll):
     os.system("cls")  # for windows you need to use "cls" instead of "clear"
@@ -45,5 +45,5 @@ if __name__ == "__main__":
         while True:
             your_try = int(input("Enter numb 1-15 >>"))
             if check_move(your_try, bord):
-                print(bord)
+                # print(bord)
                 break
